@@ -2,4 +2,112 @@ html {
     height: 100%;
     width: 100%;
   }
-  
+
+  nav {
+    background-color: #d4a373; /* Marrón claro, como el queso */
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Efecto de transición al pasar el mouse */
+}
+
+nav a:hover {
+    color: #f9f7f3; /* Cambia el color al pasar el mouse */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f7f3; /* Un tono claro y cálido */
+  color: #4a4a4a; /* Color de texto principal */
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  color: #d4a373; /* Un tono marrón claro, como el queso */
+}
+
+p {
+  color: #5a5a5a; /* Un gris oscuro para el texto */
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border: 5px solid #d4a373; /* Borde marrón claro */
+  border-radius: 10px; /* Esquinas redondeadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  margin: 20px 0;
+}
+footer {
+  background-color: #333; /* Fondo oscuro */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+footer p {
+  margin: 5px 0;
+}
+a {
+  color: #d4a373; /* Color marrón claro */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #b5835a; /* Un tono más oscuro al pasar el mouse */
+}
+
+button {
+  background-color: #d4a373;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #b5835a; /* Cambia el color al pasar el mouse */
+}
+a {
+  color: #d4a373; /* Color marrón claro */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #b5835a; /* Un tono más oscuro al pasar el mouse */
+}
+
+button {
+  background-color: #d4a373;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #b5835a; /* Cambia el color al pasar el mouse */
+}
